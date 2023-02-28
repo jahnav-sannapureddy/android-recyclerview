@@ -22,6 +22,13 @@ public class MainActivity extends AppCompatActivity {
 
         sampleArrayList.add(new Sample("Hello"));
         sampleArrayList.add(new Sample("World"));
+        sampleArrayList.add(new Sample("One"));
+        sampleArrayList.add(new Sample("Two"));
+        sampleArrayList.add(new Sample("Three"));
+        sampleArrayList.add(new Sample("Four"));
+        sampleArrayList.add(new Sample("Five"));
+        sampleArrayList.add(new Sample("Six"));
+        sampleArrayList.add(new Sample("Seven"));
 
         adapter = new SampleRvAdapter(sampleArrayList);
         sampleRecyclerView.setLayoutManager(new LinearLayoutManager(this));
